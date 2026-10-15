@@ -1,0 +1,9 @@
+services:
+  delaylens:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    restart: unless-stopped
+    environment:
+      OMP_NUM_THREADS: "2"
+      OPENBLAS_NUM_THREADS: "2"

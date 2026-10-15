@@ -1,0 +1,11 @@
+.git
+.venv
+__pycache__
+**/__pycache__
+data
+notebooks
+tests
+reports/predictions_private.csv
+reports/requests_private.json
+*.zip
+*.log

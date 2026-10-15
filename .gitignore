@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+node_modules/
+*.egg-info/
+.ipynb_checkpoints/
+.env
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+*.zip
+# The small, trusted demo model is intentionally versioned with its checksum.
+reports/predictions_private.csv
+reports/requests_private.json
+*.log
+
+.venv-*/
+
+.reproductions/
+
+.jupyter/
+
+# Never ship row-level working outputs, including archived copies.
+**/*_private.csv
+**/*_private.json
+protocol-history.bundle

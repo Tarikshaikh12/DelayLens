@@ -1,0 +1,7 @@
+{
+  "name": "delaylens-dashboard-checks",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Optional DOM behavior tests; Node is not needed to run DelayLens",
+  "devDependencies": {"jsdom": "26.1.0"}
+}
