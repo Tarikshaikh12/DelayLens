@@ -1,0 +1,241 @@
+{
+  "best_simple_rule": "route_duration_rule",
+  "selected_method": "route_duration_rule",
+  "ml_promoted": false,
+  "primary_budget": 50,
+  "development_months": 15,
+  "model_decisions": [
+    {
+      "model": "original_features_boosting",
+      "mean_monthly_paired_difference": 8.533333333333331,
+      "months_won_vs_best_rule": 9,
+      "eligible": false
+    },
+    {
+      "model": "enriched_boosting",
+      "mean_monthly_paired_difference": 21.26666666666668,
+      "months_won_vs_best_rule": 11,
+      "eligible": false
+    },
+    {
+      "model": "monotone_enriched_boosting",
+      "mean_monthly_paired_difference": 23.333333333333343,
+      "months_won_vs_best_rule": 11,
+      "eligible": false
+    }
+  ],
+  "comparisons": [
+    {
+      "model": "original_features_boosting",
+      "rule": "short_promise_rule",
+      "months_won": 13,
+      "replicates": 4000,
+      "unit": "mean monthly late hits",
+      "days": 454,
+      "difference": 49.666666666666664,
+      "difference_ci95": [
+        42.79833333333333,
+        56.6
+      ],
+      "difference_simultaneous_ci": [
+        40.86666666666667,
+        58.666666666666664
+      ],
+      "worst_unknown_difference": 34.13333333333333,
+      "worst_unknown_difference_ci95": [
+        27.06666666666667,
+        41.13333333333333
+      ],
+      "worst_unknown_difference_simultaneous_ci": [
+        24.933333333333337,
+        43.15583333333335
+      ],
+      "best_unknown_difference": 68.66666666666667,
+      "best_unknown_difference_ci95": [
+        61.266666666666666,
+        75.93333333333334
+      ],
+      "best_unknown_difference_simultaneous_ci": [
+        59.31083333333333,
+        78.06666666666666
+      ]
+    },
+    {
+      "model": "original_features_boosting",
+      "rule": "route_duration_rule",
+      "months_won": 9,
+      "replicates": 4000,
+      "unit": "mean monthly late hits",
+      "days": 454,
+      "difference": 8.533333333333333,
+      "difference_ci95": [
+        3.000000000000001,
+        14.466666666666665
+      ],
+      "difference_simultaneous_ci": [
+        0.8883333333333336,
+        16.2
+      ],
+      "worst_unknown_difference": -7.4,
+      "worst_unknown_difference_ci95": [
+        -13.066666666666668,
+        -1.333333333333333
+      ],
+      "worst_unknown_difference_simultaneous_ci": [
+        -15.022499999999999,
+        0.3558333333333398
+      ],
+      "best_unknown_difference": 25.666666666666668,
+      "best_unknown_difference_ci95": [
+        19.533333333333335,
+        31.93500000000001
+      ],
+      "best_unknown_difference_simultaneous_ci": [
+        17.6,
+        33.86666666666666
+      ]
+    },
+    {
+      "model": "enriched_boosting",
+      "rule": "short_promise_rule",
+      "months_won": 14,
+      "replicates": 4000,
+      "unit": "mean monthly late hits",
+      "days": 454,
+      "difference": 62.4,
+      "difference_ci95": [
+        55.13166666666667,
+        69.46833333333335
+      ],
+      "difference_simultaneous_ci": [
+        53.1775,
+        71.73333333333332
+      ],
+      "worst_unknown_difference": 44.6,
+      "worst_unknown_difference_ci95": [
+        37.06666666666666,
+        52.0
+      ],
+      "worst_unknown_difference_simultaneous_ci": [
+        34.64416666666667,
+        54.06666666666666
+      ],
+      "best_unknown_difference": 86.86666666666666,
+      "best_unknown_difference_ci95": [
+        79.33333333333334,
+        94.13500000000002
+      ],
+      "best_unknown_difference_simultaneous_ci": [
+        76.91083333333331,
+        97.13333333333333
+      ]
+    },
+    {
+      "model": "enriched_boosting",
+      "rule": "route_duration_rule",
+      "months_won": 11,
+      "replicates": 4000,
+      "unit": "mean monthly late hits",
+      "days": 454,
+      "difference": 21.266666666666666,
+      "difference_ci95": [
+        15.333333333333332,
+        27.333333333333332
+      ],
+      "difference_simultaneous_ci": [
+        13.266666666666666,
+        29.51166666666668
+      ],
+      "worst_unknown_difference": 4.733333333333333,
+      "worst_unknown_difference_ci95": [
+        -1.533333333333334,
+        10.933333333333334
+      ],
+      "worst_unknown_difference_simultaneous_ci": [
+        -3.3558333333333334,
+        12.866666666666667
+      ],
+      "best_unknown_difference": 42.2,
+      "best_unknown_difference_ci95": [
+        35.66666666666667,
+        48.6
+      ],
+      "best_unknown_difference_simultaneous_ci": [
+        33.71083333333333,
+        50.95583333333334
+      ]
+    },
+    {
+      "model": "monotone_enriched_boosting",
+      "rule": "short_promise_rule",
+      "months_won": 13,
+      "replicates": 4000,
+      "unit": "mean monthly late hits",
+      "days": 454,
+      "difference": 64.46666666666667,
+      "difference_ci95": [
+        57.19833333333334,
+        71.53333333333333
+      ],
+      "difference_simultaneous_ci": [
+        54.6,
+        73.95666666666669
+      ],
+      "worst_unknown_difference": 46.06666666666667,
+      "worst_unknown_difference_ci95": [
+        38.53333333333333,
+        53.4
+      ],
+      "worst_unknown_difference_simultaneous_ci": [
+        35.8,
+        55.8
+      ],
+      "best_unknown_difference": 89.6,
+      "best_unknown_difference_ci95": [
+        81.86666666666667,
+        97.06666666666666
+      ],
+      "best_unknown_difference_simultaneous_ci": [
+        79.44416666666667,
+        100.22250000000003
+      ]
+    },
+    {
+      "model": "monotone_enriched_boosting",
+      "rule": "route_duration_rule",
+      "months_won": 11,
+      "replicates": 4000,
+      "unit": "mean monthly late hits",
+      "days": 454,
+      "difference": 23.333333333333332,
+      "difference_ci95": [
+        17.333333333333332,
+        29.401666666666674
+      ],
+      "difference_simultaneous_ci": [
+        15.466666666666667,
+        31.378333333333348
+      ],
+      "worst_unknown_difference": 6.866666666666666,
+      "worst_unknown_difference_ci95": [
+        0.7333333333333334,
+        13.066666666666666
+      ],
+      "worst_unknown_difference_simultaneous_ci": [
+        -1.4000000000000008,
+        15.222500000000007
+      ],
+      "best_unknown_difference": 44.266666666666666,
+      "best_unknown_difference_ci95": [
+        37.866666666666674,
+        50.735000000000014
+      ],
+      "best_unknown_difference_simultaneous_ci": [
+        35.66583333333333,
+        53.0
+      ]
+    }
+  ],
+  "stress_used_for_selection": false,
+  "independent_confirmation": false
+}

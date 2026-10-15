@@ -1,0 +1,35 @@
+{
+  "train": {
+    "approval_start": "2017-01-01",
+    "approval_end_exclusive": "2018-01-01",
+    "labels_observed_before": "2018-03-01",
+    "orders": 42847,
+    "excluded_unmatured": 19,
+    "late_rate": 0.05662006674913063
+  },
+  "validation": {
+    "approval_start": "2018-03-01",
+    "approval_end_exclusive": "2018-04-01",
+    "labels_observed_before": "2018-05-01",
+    "orders": 6812,
+    "excluded_unmatured": 183,
+    "late_rate": 0.1736641221374046
+  },
+  "calibration": {
+    "approval_start": "2018-05-01",
+    "approval_end_exclusive": "2018-06-01",
+    "labels_observed_before": "2018-07-01",
+    "orders": 6805,
+    "excluded_unmatured": 22,
+    "late_rate": 0.06407053637031594
+  },
+  "test": {
+    "approval_start": "2018-07-01",
+    "approval_end_exclusive": "2018-09-01",
+    "labels_observed_before": null,
+    "orders": 12304,
+    "excluded_unmatured": 0,
+    "late_rate": 0.04868335500650195
+  },
+  "unused_eligible_orders": 26347
+}

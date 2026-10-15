@@ -1,0 +1,49 @@
+{
+  "raw_orders": 99441,
+  "status_counts": {
+    "delivered": 96478,
+    "shipped": 1107,
+    "canceled": 625,
+    "unavailable": 609,
+    "invoiced": 314,
+    "processing": 301,
+    "created": 5,
+    "approved": 2
+  },
+  "source_sha256": {
+    "olist_orders_dataset.csv": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf",
+    "olist_order_items_dataset.csv": "0bc4d068c4fe38cbb01bd90e8746e3c613fe7b4baef75fab7b0e329701c3e279",
+    "olist_customers_dataset.csv": "983a422239e1712ded753b3bf9ecf47dc73f144d306029dcfa99e70a226883d2",
+    "olist_sellers_dataset.csv": "1f643d2b950373b85735e7794b20986f528d7a000432e7c6f9bcbb44d0846a0e",
+    "olist_products_dataset.csv": "3e6569628a17fbc75fd206ee357b59e20364b9afa90f5b6cd5b4d624c58aa9cc",
+    "product_category_name_translation.csv": "a81f0d1f27b27e7293f761bc79e3ce8f348ee39c4b3ed3e49bde38f478586278"
+  },
+  "exclusions": {
+    "missing_required_timestamp": 160,
+    "not_exactly_one_seller": 1907,
+    "input_contract_failure": 16
+  },
+  "eligible_orders": 97358,
+  "observed_late_rate": 0.06852324933505745,
+  "unknown_outcomes": 2237,
+  "invalid_delivery_before_approval": 56,
+  "missing_features": {
+    "promised_days": 0,
+    "approval_hours": 0,
+    "item_count": 0,
+    "total_price_brl": 0,
+    "freight_brl": 0,
+    "total_weight_g": 22,
+    "total_volume_cm3": 16,
+    "freight_ratio": 0,
+    "average_item_price": 0,
+    "same_state": 0,
+    "approval_weekday": 0,
+    "approval_hour": 0,
+    "month_sin": 0,
+    "month_cos": 0,
+    "customer_state": 0,
+    "seller_state": 0,
+    "primary_category": 0
+  }
+}

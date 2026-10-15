@@ -1,0 +1,20 @@
+| month | method | budget | confirmed_late_found | selected_unknown | lift_known_hits |
+|---|---|---|---|---|---|
+| 2018-07 | short_promise_rule | 10 | 22 | 17 | 2.19 |
+| 2018-08 | short_promise_rule | 10 | 58 | 15 | 4.29 |
+| 2018-07 | short_promise_rule | 25 | 30 | 28 | 1.27 |
+| 2018-08 | short_promise_rule | 25 | 111 | 21 | 3.29 |
+| 2018-07 | short_promise_rule | 50 | 56 | 52 | 1.21 |
+| 2018-08 | short_promise_rule | 50 | 194 | 35 | 2.87 |
+| 2018-07 | route_duration_rule | 10 | 22 | 17 | 2.19 |
+| 2018-08 | route_duration_rule | 10 | 38 | 15 | 2.81 |
+| 2018-07 | route_duration_rule | 25 | 45 | 23 | 1.91 |
+| 2018-08 | route_duration_rule | 25 | 94 | 26 | 2.78 |
+| 2018-07 | route_duration_rule | 50 | 71 | 46 | 1.54 |
+| 2018-08 | route_duration_rule | 50 | 170 | 42 | 2.52 |
+| 2018-07 | frozen_original_ml | 10 | 27 | 10 | 2.69 |
+| 2018-08 | frozen_original_ml | 10 | 26 | 11 | 1.92 |
+| 2018-07 | frozen_original_ml | 25 | 47 | 23 | 1.99 |
+| 2018-08 | frozen_original_ml | 25 | 46 | 22 | 1.36 |
+| 2018-07 | frozen_original_ml | 50 | 76 | 41 | 1.64 |
+| 2018-08 | frozen_original_ml | 50 | 85 | 39 | 1.26 |

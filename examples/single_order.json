@@ -1,0 +1,14 @@
+{
+  "order_id": "DEMO-1001",
+  "purchased_at": "2018-07-12T08:00:00",
+  "approved_at": "2018-07-12T09:00:00",
+  "promised_date": "2018-07-22",
+  "customer_state": "RJ",
+  "seller_state": "SP",
+  "primary_category": "health_beauty",
+  "item_count": 1,
+  "total_price_brl": 130,
+  "freight_brl": 28,
+  "total_weight_g": 1200,
+  "total_volume_cm3": 8000
+}

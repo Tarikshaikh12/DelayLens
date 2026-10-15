@@ -1,0 +1,134 @@
+[
+  {
+    "scope": "legacy_delivered_only",
+    "rule": "short_promise_rule",
+    "original": {
+      "budget": 50,
+      "orders": 12304,
+      "known_outcomes": 12304,
+      "unknown_outcomes": 0,
+      "confirmed_late_orders": 599,
+      "selected": 2772,
+      "review_share": 0.2252925877763329,
+      "confirmed_late_found": 164,
+      "selected_unknown": 0,
+      "precision_lower": 0.05916305916305916,
+      "precision_upper": 0.05916305916305916,
+      "random_expected_confirmed_hits": 116.26090755074623,
+      "lift_known_hits": 1.4106203319324369
+    },
+    "baseline": {
+      "budget": 50,
+      "orders": 12304,
+      "known_outcomes": 12304,
+      "unknown_outcomes": 0,
+      "confirmed_late_orders": 599,
+      "selected": 2772,
+      "review_share": 0.2252925877763329,
+      "confirmed_late_found": 258,
+      "selected_unknown": 0,
+      "precision_lower": 0.09307359307359307,
+      "precision_upper": 0.09307359307359307,
+      "random_expected_confirmed_hits": 116.26090755074623,
+      "lift_known_hits": 2.21914661974737
+    },
+    "paired": {
+      "replicates": 4000,
+      "unit": "total late hits",
+      "days": 58,
+      "difference": -94.0,
+      "difference_ci95": [
+        -183.0,
+        -23.97499999999991
+      ],
+      "difference_simultaneous_ci": [
+        -218.675,
+        -7.0
+      ],
+      "worst_unknown_difference": -94.0,
+      "worst_unknown_difference_ci95": [
+        -183.0,
+        -23.97499999999991
+      ],
+      "worst_unknown_difference_simultaneous_ci": [
+        -218.675,
+        -7.0
+      ],
+      "best_unknown_difference": -94.0,
+      "best_unknown_difference_ci95": [
+        -183.0,
+        -23.97499999999991
+      ],
+      "best_unknown_difference_simultaneous_ci": [
+        -218.675,
+        -7.0
+      ]
+    }
+  },
+  {
+    "scope": "legacy_delivered_only",
+    "rule": "route_duration_rule",
+    "original": {
+      "budget": 50,
+      "orders": 12304,
+      "known_outcomes": 12304,
+      "unknown_outcomes": 0,
+      "confirmed_late_orders": 599,
+      "selected": 2772,
+      "review_share": 0.2252925877763329,
+      "confirmed_late_found": 164,
+      "selected_unknown": 0,
+      "precision_lower": 0.05916305916305916,
+      "precision_upper": 0.05916305916305916,
+      "random_expected_confirmed_hits": 116.26090755074623,
+      "lift_known_hits": 1.4106203319324369
+    },
+    "baseline": {
+      "budget": 50,
+      "orders": 12304,
+      "known_outcomes": 12304,
+      "unknown_outcomes": 0,
+      "confirmed_late_orders": 599,
+      "selected": 2772,
+      "review_share": 0.2252925877763329,
+      "confirmed_late_found": 250,
+      "selected_unknown": 0,
+      "precision_lower": 0.09018759018759019,
+      "precision_upper": 0.09018759018759019,
+      "random_expected_confirmed_hits": 116.26090755074623,
+      "lift_known_hits": 2.150335871848227
+    },
+    "paired": {
+      "replicates": 4000,
+      "unit": "total late hits",
+      "days": 58,
+      "difference": -86.0,
+      "difference_ci95": [
+        -155.0,
+        -31.0
+      ],
+      "difference_simultaneous_ci": [
+        -185.3375,
+        -17.0
+      ],
+      "worst_unknown_difference": -86.0,
+      "worst_unknown_difference_ci95": [
+        -155.0,
+        -31.0
+      ],
+      "worst_unknown_difference_simultaneous_ci": [
+        -185.3375,
+        -17.0
+      ],
+      "best_unknown_difference": -86.0,
+      "best_unknown_difference_ci95": [
+        -155.0,
+        -31.0
+      ],
+      "best_unknown_difference_simultaneous_ci": [
+        -185.3375,
+        -17.0
+      ]
+    }
+  }
+]

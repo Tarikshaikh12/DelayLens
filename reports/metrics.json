@@ -1,0 +1,208 @@
+{
+  "selection_metric": "validation average precision",
+  "selected_model": "logistic_regression",
+  "validation": {
+    "constant_prior": {
+      "orders": 6812,
+      "late_orders": 1183,
+      "late_rate": 0.1736641221374046,
+      "average_precision": 0.1736641221374046,
+      "roc_auc": 0.5,
+      "brier_score": 0.15720420572138252,
+      "log_loss": 0.5468217007163988,
+      "capacity_50": {
+        "budget_per_day": 50,
+        "selected": 1550,
+        "late_found": 244,
+        "precision": 0.15741935483870967,
+        "recall": 0.2062552831783601,
+        "random_expected_late_found": 260.8389090224277,
+        "random_expected_precision": 0.16828316711124366,
+        "lift_over_random": 0.9354432623356057
+      },
+      "fit_seconds": 0.13589244400009193
+    },
+    "logistic_regression": {
+      "orders": 6812,
+      "late_orders": 1183,
+      "late_rate": 0.1736641221374046,
+      "average_precision": 0.3243297344162247,
+      "roc_auc": 0.6766868290297783,
+      "brier_score": 0.14660889729398263,
+      "log_loss": 0.49082926446245084,
+      "capacity_50": {
+        "budget_per_day": 50,
+        "selected": 1550,
+        "late_found": 494,
+        "precision": 0.31870967741935485,
+        "recall": 0.4175824175824176,
+        "random_expected_late_found": 260.8389090224277,
+        "random_expected_precision": 0.16828316711124366,
+        "lift_over_random": 1.8938892278433983
+      },
+      "fit_seconds": 0.4700926929999696
+    },
+    "random_forest": {
+      "orders": 6812,
+      "late_orders": 1183,
+      "late_rate": 0.1736641221374046,
+      "average_precision": 0.31938233284295003,
+      "roc_auc": 0.6613107433173847,
+      "brier_score": 0.15289527637324482,
+      "log_loss": 0.520575497485562,
+      "capacity_50": {
+        "budget_per_day": 50,
+        "selected": 1550,
+        "late_found": 462,
+        "precision": 0.29806451612903223,
+        "recall": 0.3905325443786982,
+        "random_expected_late_found": 260.8389090224277,
+        "random_expected_precision": 0.16828316711124366,
+        "lift_over_random": 1.771208144258401
+      },
+      "fit_seconds": 4.318878613999914
+    },
+    "hist_gradient_boosting": {
+      "orders": 6812,
+      "late_orders": 1183,
+      "late_rate": 0.1736641221374046,
+      "average_precision": 0.2645489666270151,
+      "roc_auc": 0.6501184768468204,
+      "brier_score": 0.15398319210720804,
+      "log_loss": 0.5398135867697786,
+      "capacity_50": {
+        "budget_per_day": 50,
+        "selected": 1550,
+        "late_found": 424,
+        "precision": 0.2735483870967742,
+        "recall": 0.3584108199492815,
+        "random_expected_late_found": 260.8389090224277,
+        "random_expected_precision": 0.16828316711124366,
+        "lift_over_random": 1.6255243575012164
+      },
+      "fit_seconds": 0.9403242230000615
+    }
+  },
+  "test": {
+    "orders": 12304,
+    "late_orders": 599,
+    "late_rate": 0.04868335500650195,
+    "average_precision": 0.08535163040451249,
+    "roc_auc": 0.6494832980212644,
+    "brier_score": 0.04671675056907889,
+    "log_loss": 0.1925158462491755,
+    "capacity_50": {
+      "budget_per_day": 50,
+      "selected": 2772,
+      "late_found": 164,
+      "precision": 0.05916305916305916,
+      "recall": 0.27378964941569284,
+      "random_expected_late_found": 116.26090755074623,
+      "random_expected_precision": 0.04194116434009604,
+      "lift_over_random": 1.4106203319324369
+    }
+  },
+  "test_uncalibrated": {
+    "orders": 12304,
+    "late_orders": 599,
+    "late_rate": 0.04868335500650195,
+    "average_precision": 0.08535163040451249,
+    "roc_auc": 0.6494832980212644,
+    "brier_score": 0.04604677392592316,
+    "log_loss": 0.1907407347942845,
+    "capacity_50": {
+      "budget_per_day": 50,
+      "selected": 2772,
+      "late_found": 164,
+      "precision": 0.05916305916305916,
+      "recall": 0.27378964941569284,
+      "random_expected_late_found": 116.26090755074623,
+      "random_expected_precision": 0.04194116434009604,
+      "lift_over_random": 1.4106203319324369
+    }
+  },
+  "validation_short_promise_rule": {
+    "budget_per_day": 50,
+    "selected": 1550,
+    "late_found": 130,
+    "precision": 0.08387096774193549,
+    "recall": 0.10989010989010989,
+    "random_expected_late_found": 260.8389090224277,
+    "random_expected_precision": 0.16828316711124366,
+    "lift_over_random": 0.4983919020640522
+  },
+  "test_constant_prior": {
+    "orders": 12304,
+    "late_orders": 599,
+    "late_rate": 0.04868335500650195,
+    "average_precision": 0.04868335500650195,
+    "roc_auc": 0.5,
+    "brier_score": 0.046888916071002665,
+    "log_loss": 0.19941416285107688,
+    "capacity_50": {
+      "budget_per_day": 50,
+      "selected": 2772,
+      "late_found": 108,
+      "precision": 0.03896103896103896,
+      "recall": 0.18030050083472454,
+      "random_expected_late_found": 116.26090755074623,
+      "random_expected_precision": 0.04194116434009604,
+      "lift_over_random": 0.928945096638434
+    }
+  },
+  "bootstrap_95_percent": {
+    "method": "300 whole-day bootstrap samples, fixed fitted model",
+    "replicates": 300,
+    "average_precision": [
+      0.07383086857232016,
+      0.09938114865233984
+    ],
+    "precision_at_50_per_day": [
+      0.048200347573227505,
+      0.06926096498145652
+    ],
+    "recall_at_50_per_day": [
+      0.20752265531171524,
+      0.3490695313821688
+    ],
+    "lift_at_50_per_day": [
+      1.167990235244833,
+      1.6817814201244976
+    ]
+  },
+  "test_short_promise_rule": {
+    "budget_per_day": 50,
+    "selected": 2772,
+    "late_found": 258,
+    "precision": 0.09307359307359307,
+    "recall": 0.4307178631051753,
+    "random_expected_late_found": 116.26090755074623,
+    "random_expected_precision": 0.04194116434009604,
+    "lift_over_random": 2.21914661974737
+  },
+  "calibration": {
+    "orders": 6805,
+    "late_rate": 0.06407053637031594,
+    "slope": 1.135885151024723,
+    "intercept": 0.6096453525803184
+  },
+  "limitations": [
+    "Historical 2017-2018 Brazil data, not current delivery performance.",
+    "Only delivered single-seller orders; no guarantee for cancelled, undelivered or multi-seller orders.",
+    "Features assumed available at approval; source is a final snapshot without update history.",
+    "Outcome-maturity filters and delivered-only selection can underrepresent very slow deliveries.",
+    "Daily top-K is a retrospective next-shift queue, not immediate online intervention.",
+    "Finding late orders does not prove an intervention prevents delays or saves money."
+  ],
+  "release_gate": {
+    "status": "research_only",
+    "beats_short_promise_rule_at_50": false,
+    "model_precision": 0.05916305916305916,
+    "rule_precision": 0.09307359307359307,
+    "reason": "Historical evaluation only. A baseline comparison is necessary but not sufficient for deployment.",
+    "post_test_action": "No model retuning on this test set. The benchmark remains visible; any future development needs a new evaluation plan."
+  },
+  "model_version": "delaylens-1.0-a967c698-94eced67",
+  "runtime_seconds": 24.467232677000084,
+  "evidence_scope": "Legacy delivered-only evaluation of frozen original API artifact; superseded as research methodology. Current evidence: reports/review."
+}

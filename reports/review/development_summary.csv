@@ -1,0 +1,16 @@
+method,budget,confirmed_hits,mean_month_hits,selected_unknown
+enriched_boosting,10,474,31.6,142
+enriched_boosting,25,1085,72.33333333333333,352
+enriched_boosting,50,1939,129.26666666666668,643
+monotone_enriched_boosting,10,507,33.8,137
+monotone_enriched_boosting,25,1110,74.0,343
+monotone_enriched_boosting,50,1970,131.33333333333334,644
+original_features_boosting,10,388,25.866666666666667,136
+original_features_boosting,25,932,62.13333333333333,309
+original_features_boosting,50,1748,116.53333333333333,595
+route_duration_rule,10,408,27.2,127
+route_duration_rule,25,893,59.53333333333333,306
+route_duration_rule,50,1620,108.0,577
+short_promise_rule,10,229,15.266666666666667,117
+short_promise_rule,25,473,31.533333333333335,283
+short_promise_rule,50,1003,66.86666666666666,543

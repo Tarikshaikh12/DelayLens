@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "start_utc": "2026-10-14T20:11:32.217256+00:00",
+  "protocol_commit": "f747128b5c03de6a648e0e32317880b6182cd4a9",
+  "protocol_sha256": "b1a9959b095d39b548b2e0d5b93591586be3730759ea8355892678fca323f560",
+  "code_sha256": {
+    "experiments/REVIEW_PROTOCOL.md": "b1a9959b095d39b548b2e0d5b93591586be3730759ea8355892678fca323f560",
+    "src/delaylens/review.py": "4f0fc05b33b7b374f76568213db91a97eaf023c7f154ff2b993c8a2c71e3a40d",
+    "src/delaylens/review_features.py": "7c6e2fd0a153dd36e759a1fe109c076d590f2909a154c97f250fcfe8d53a4dbc",
+    "src/delaylens/data.py": "8c76c42bd2ae10f8189b51e0dec919b206afb6e57b90b870aedbce910bcae5b4",
+    "src/delaylens/features.py": "b01764ee24ad3f64ec63fae65cc7211465e8ed0b1f2d39dbb1c11700f63a76c6",
+    "src/delaylens/schema.py": "46291b21b2b440d360ff2e246941d27d011947dc46edcd9a9f203d99b58a4235",
+    "src/delaylens/cache.py": "76ce81ea64de810bd6893ad82cb063672d1835f666fd69fc2de8522e18084fe9"
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3"
+  },
+  "end_utc": "2026-10-14T20:12:26.282057+00:00",
+  "selected_method": "route_duration_rule"
+}

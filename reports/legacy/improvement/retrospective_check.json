@@ -1,0 +1,80 @@
+{
+  "status": "exploratory_not_independent_confirmation",
+  "winner": "enriched_boosting",
+  "orders": 12304,
+  "late_orders": 599,
+  "winner_capacity": {
+    "budget_per_day": 50,
+    "selected": 2772,
+    "late_found": 172,
+    "precision": 0.06204906204906205,
+    "recall": 0.2871452420701169,
+    "random_expected_late_found": 116.26090755074623,
+    "random_expected_precision": 0.04194116434009604,
+    "lift_over_random": 1.4794310798315802
+  },
+  "rule_capacity": {
+    "budget_per_day": 50,
+    "selected": 2772,
+    "late_found": 258,
+    "precision": 0.09307359307359307,
+    "recall": 0.4307178631051753,
+    "random_expected_late_found": 116.26090755074623,
+    "random_expected_precision": 0.04194116434009604,
+    "lift_over_random": 2.21914661974737
+  },
+  "comparison": {
+    "late_found_difference": -86,
+    "paired_day_bootstrap_95_percent": [
+      -165.025,
+      -21.0
+    ],
+    "replicates": 2000
+  },
+  "monthly": {
+    "2018-07": {
+      "winner": {
+        "budget_per_day": 50,
+        "selected": 1409,
+        "late_found": 81,
+        "precision": 0.057487579843860895,
+        "recall": 0.41968911917098445,
+        "random_expected_late_found": 47.311904985380764,
+        "random_expected_precision": 0.03357835698039799,
+        "lift_over_random": 1.7120426671686282
+      },
+      "rule": {
+        "budget_per_day": 50,
+        "selected": 1409,
+        "late_found": 60,
+        "precision": 0.042583392476934,
+        "recall": 0.31088082901554404,
+        "random_expected_late_found": 47.311904985380764,
+        "random_expected_precision": 0.03357835698039799,
+        "lift_over_random": 1.268179753458243
+      }
+    },
+    "2018-08": {
+      "winner": {
+        "budget_per_day": 50,
+        "selected": 1363,
+        "late_found": 91,
+        "precision": 0.06676449009537784,
+        "recall": 0.22413793103448276,
+        "random_expected_late_found": 68.94900256536545,
+        "random_expected_precision": 0.05058620877869805,
+        "lift_over_random": 1.3198160468489684
+      },
+      "rule": {
+        "budget_per_day": 50,
+        "selected": 1363,
+        "late_found": 198,
+        "precision": 0.14526779163609685,
+        "recall": 0.4876847290640394,
+        "random_expected_late_found": 68.94900256536545,
+        "random_expected_precision": 0.05058620877869805,
+        "lift_over_random": 2.8716876623746783
+      }
+    }
+  }
+}

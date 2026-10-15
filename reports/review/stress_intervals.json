@@ -1,0 +1,317 @@
+[
+  {
+    "candidate": "frozen_original_ml",
+    "rule": "short_promise_rule",
+    "budget": 10,
+    "replicates": 4000,
+    "unit": "total late hits",
+    "days": 58,
+    "difference": -27.0,
+    "difference_ci95": [
+      -53.0,
+      -1.0
+    ],
+    "difference_simultaneous_ci": [
+      -63.0,
+      6.0
+    ],
+    "worst_unknown_difference": -56.0,
+    "worst_unknown_difference_ci95": [
+      -85.0,
+      -28.0
+    ],
+    "worst_unknown_difference_simultaneous_ci": [
+      -97.0,
+      -19.66249999999991
+    ],
+    "best_unknown_difference": -9.0,
+    "best_unknown_difference_ci95": [
+      -33.0,
+      16.0
+    ],
+    "best_unknown_difference_simultaneous_ci": [
+      -43.0,
+      23.33750000000009
+    ]
+  },
+  {
+    "candidate": "frozen_original_ml",
+    "rule": "short_promise_rule",
+    "budget": 25,
+    "replicates": 4000,
+    "unit": "total late hits",
+    "days": 58,
+    "difference": -48.0,
+    "difference_ci95": [
+      -98.0,
+      -5.0
+    ],
+    "difference_simultaneous_ci": [
+      -114.675,
+      8.0
+    ],
+    "worst_unknown_difference": -84.0,
+    "worst_unknown_difference_ci95": [
+      -132.0,
+      -41.0
+    ],
+    "worst_unknown_difference_simultaneous_ci": [
+      -151.0,
+      -29.0
+    ],
+    "best_unknown_difference": -16.0,
+    "best_unknown_difference_ci95": [
+      -64.0,
+      26.0
+    ],
+    "best_unknown_difference_simultaneous_ci": [
+      -81.3375,
+      38.0
+    ]
+  },
+  {
+    "candidate": "frozen_original_ml",
+    "rule": "short_promise_rule",
+    "budget": 50,
+    "replicates": 4000,
+    "unit": "total late hits",
+    "days": 58,
+    "difference": -89.0,
+    "difference_ci95": [
+      -176.0,
+      -21.0
+    ],
+    "difference_simultaneous_ci": [
+      -211.3375,
+      -2.0
+    ],
+    "worst_unknown_difference": -143.0,
+    "worst_unknown_difference_ci95": [
+      -230.0,
+      -73.0
+    ],
+    "worst_unknown_difference_simultaneous_ci": [
+      -262.3375,
+      -55.0
+    ],
+    "best_unknown_difference": -42.0,
+    "best_unknown_difference_ci95": [
+      -123.02499999999999,
+      23.0
+    ],
+    "best_unknown_difference_simultaneous_ci": [
+      -153.0,
+      38.0
+    ]
+  },
+  {
+    "candidate": "frozen_original_ml",
+    "rule": "route_duration_rule",
+    "budget": 10,
+    "replicates": 4000,
+    "unit": "total late hits",
+    "days": 58,
+    "difference": -7.0,
+    "difference_ci95": [
+      -22.0,
+      8.0
+    ],
+    "difference_simultaneous_ci": [
+      -27.0,
+      13.0
+    ],
+    "worst_unknown_difference": -27.0,
+    "worst_unknown_difference_ci95": [
+      -44.0,
+      -10.0
+    ],
+    "worst_unknown_difference_simultaneous_ci": [
+      -51.0,
+      -3.0
+    ],
+    "best_unknown_difference": 2.0,
+    "best_unknown_difference_ci95": [
+      -14.0,
+      18.0
+    ],
+    "best_unknown_difference_simultaneous_ci": [
+      -20.0,
+      24.0
+    ]
+  },
+  {
+    "candidate": "frozen_original_ml",
+    "rule": "route_duration_rule",
+    "budget": 25,
+    "replicates": 4000,
+    "unit": "total late hits",
+    "days": 58,
+    "difference": -46.0,
+    "difference_ci95": [
+      -75.0,
+      -18.0
+    ],
+    "difference_simultaneous_ci": [
+      -85.0,
+      -11.0
+    ],
+    "worst_unknown_difference": -73.0,
+    "worst_unknown_difference_ci95": [
+      -109.0,
+      -40.0
+    ],
+    "worst_unknown_difference_simultaneous_ci": [
+      -120.3375,
+      -30.0
+    ],
+    "best_unknown_difference": -23.0,
+    "best_unknown_difference_ci95": [
+      -55.0,
+      7.0
+    ],
+    "best_unknown_difference_simultaneous_ci": [
+      -66.3375,
+      17.0
+    ]
+  },
+  {
+    "candidate": "frozen_original_ml",
+    "rule": "route_duration_rule",
+    "budget": 50,
+    "replicates": 4000,
+    "unit": "total late hits",
+    "days": 58,
+    "difference": -80.0,
+    "difference_ci95": [
+      -145.0,
+      -27.0
+    ],
+    "difference_simultaneous_ci": [
+      -174.0,
+      -13.0
+    ],
+    "worst_unknown_difference": -117.0,
+    "worst_unknown_difference_ci95": [
+      -184.0,
+      -62.0
+    ],
+    "worst_unknown_difference_simultaneous_ci": [
+      -209.675,
+      -47.0
+    ],
+    "best_unknown_difference": -51.0,
+    "best_unknown_difference_ci95": [
+      -112.0,
+      -0.974999999999909
+    ],
+    "best_unknown_difference_simultaneous_ci": [
+      -132.3375,
+      14.0
+    ]
+  },
+  {
+    "candidate": "route_duration_rule",
+    "rule": "short_promise_rule",
+    "budget": 10,
+    "replicates": 4000,
+    "unit": "total late hits",
+    "days": 58,
+    "difference": -20.0,
+    "difference_ci95": [
+      -39.0,
+      -2.0
+    ],
+    "difference_simultaneous_ci": [
+      -47.0,
+      5.0
+    ],
+    "worst_unknown_difference": -35.0,
+    "worst_unknown_difference_ci95": [
+      -57.0,
+      -15.0
+    ],
+    "worst_unknown_difference_simultaneous_ci": [
+      -64.3375,
+      -7.662499999999909
+    ],
+    "best_unknown_difference": -5.0,
+    "best_unknown_difference_ci95": [
+      -23.0,
+      12.0
+    ],
+    "best_unknown_difference_simultaneous_ci": [
+      -28.0,
+      19.0
+    ]
+  },
+  {
+    "candidate": "route_duration_rule",
+    "rule": "short_promise_rule",
+    "budget": 25,
+    "replicates": 4000,
+    "unit": "total late hits",
+    "days": 58,
+    "difference": -2.0,
+    "difference_ci95": [
+      -32.0,
+      26.02500000000009
+    ],
+    "difference_simultaneous_ci": [
+      -44.0,
+      35.0
+    ],
+    "worst_unknown_difference": -21.0,
+    "worst_unknown_difference_ci95": [
+      -53.0,
+      9.0
+    ],
+    "worst_unknown_difference_simultaneous_ci": [
+      -66.3375,
+      16.0
+    ],
+    "best_unknown_difference": 17.0,
+    "best_unknown_difference_ci95": [
+      -12.0,
+      45.0
+    ],
+    "best_unknown_difference_simultaneous_ci": [
+      -21.0,
+      54.33750000000009
+    ]
+  },
+  {
+    "candidate": "route_duration_rule",
+    "rule": "short_promise_rule",
+    "budget": 50,
+    "replicates": 4000,
+    "unit": "total late hits",
+    "days": 58,
+    "difference": -9.0,
+    "difference_ci95": [
+      -40.0,
+      18.0
+    ],
+    "difference_simultaneous_ci": [
+      -49.0,
+      27.0
+    ],
+    "worst_unknown_difference": -31.0,
+    "worst_unknown_difference_ci95": [
+      -62.0,
+      -5.0
+    ],
+    "worst_unknown_difference_simultaneous_ci": [
+      -72.0,
+      5.0
+    ],
+    "best_unknown_difference": 14.0,
+    "best_unknown_difference_ci95": [
+      -13.0,
+      39.0
+    ],
+    "best_unknown_difference_simultaneous_ci": [
+      -24.0,
+      48.0
+    ]
+  }
+]

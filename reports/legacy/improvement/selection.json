@@ -1,0 +1,11 @@
+{
+  "winner": "enriched_boosting",
+  "development_late_found": {
+    "enriched_boosting": 1060,
+    "duration_regression": 1046,
+    "original_features_boosting": 961,
+    "route_duration_rule": 835,
+    "short_promise_rule": 405
+  },
+  "protocol_sha256": "e831a6a9cd293d324236764a42e19ed727a44c5fad8c48cb9d9db78837f21564"
+}

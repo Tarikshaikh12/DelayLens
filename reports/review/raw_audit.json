@@ -1,0 +1,10 @@
+{
+  "raw_orders": 99441,
+  "missing_approval": 160,
+  "delivery_before_approval": 61,
+  "status_delivered_without_timestamp": 8,
+  "status_not_delivered_with_timestamp": 6,
+  "extraction_cutoff_known": false,
+  "max_recorded_delivery": "2018-10-17 13:22:46",
+  "max_recorded_purchase": "2018-10-17 17:30:18"
+}

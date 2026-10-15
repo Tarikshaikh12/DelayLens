@@ -1,0 +1,265 @@
+{
+  "model_version": "delaylens-1.0-a967c698-94eced67",
+  "selected_model": "logistic_regression",
+  "dataset_version": "Olist v2",
+  "dataset_sha256": "a967c698a953b20ef5448005baf144f8e8f40f5c489289b2e0dd22954068cbf6",
+  "code_sha256": "94eced67fda1784887037f14e6c6f4f199d3b04e6a4494e89d158b88eaab44db",
+  "features": [
+    "promised_days",
+    "approval_hours",
+    "item_count",
+    "total_price_brl",
+    "freight_brl",
+    "total_weight_g",
+    "total_volume_cm3",
+    "freight_ratio",
+    "average_item_price",
+    "same_state",
+    "approval_weekday",
+    "approval_hour",
+    "month_sin",
+    "month_cos",
+    "customer_state",
+    "seller_state",
+    "primary_category"
+  ],
+  "trained_at_utc": "2026-10-14T13:46:30.868826+00:00",
+  "python_version": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.16.3",
+    "joblib": "1.5.3",
+    "pydantic": "2.13.5"
+  },
+  "risk_band_thresholds": {
+    "elevated": 0.09262754206091335,
+    "high": 0.18660433754416975
+  },
+  "risk_band_definition": "80th/95th percentiles of May 2018 calibration scores; not action thresholds.",
+  "known_categories": {
+    "customer_state": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "seller_state": [
+      "AM",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RS",
+      "SC",
+      "SE",
+      "SP"
+    ],
+    "primary_category": [
+      "agro_industry_and_commerce",
+      "air_conditioning",
+      "art",
+      "arts_and_craftmanship",
+      "audio",
+      "auto",
+      "baby",
+      "bed_bath_table",
+      "books_general_interest",
+      "books_imported",
+      "books_technical",
+      "cds_dvds_musicals",
+      "christmas_supplies",
+      "cine_photo",
+      "computers",
+      "computers_accessories",
+      "consoles_games",
+      "construction_tools_construction",
+      "construction_tools_lights",
+      "construction_tools_safety",
+      "cool_stuff",
+      "costruction_tools_garden",
+      "costruction_tools_tools",
+      "diapers_and_hygiene",
+      "drinks",
+      "dvds_blu_ray",
+      "electronics",
+      "fashio_female_clothing",
+      "fashion_bags_accessories",
+      "fashion_childrens_clothes",
+      "fashion_male_clothing",
+      "fashion_shoes",
+      "fashion_sport",
+      "fashion_underwear_beach",
+      "fixed_telephony",
+      "flowers",
+      "food",
+      "food_drink",
+      "furniture_bedroom",
+      "furniture_decor",
+      "furniture_living_room",
+      "furniture_mattress_and_upholstery",
+      "garden_tools",
+      "health_beauty",
+      "home_appliances",
+      "home_appliances_2",
+      "home_comfort_2",
+      "home_confort",
+      "home_construction",
+      "housewares",
+      "industry_commerce_and_business",
+      "kitchen_dining_laundry_garden_furniture",
+      "la_cuisine",
+      "luggage_accessories",
+      "market_place",
+      "music",
+      "musical_instruments",
+      "office_furniture",
+      "party_supplies",
+      "perfumery",
+      "pet_shop",
+      "security_and_services",
+      "signaling_and_security",
+      "small_appliances",
+      "small_appliances_home_oven_and_coffee",
+      "sports_leisure",
+      "stationery",
+      "tablets_printing_image",
+      "telephony",
+      "toys",
+      "unknown",
+      "watches_gifts"
+    ]
+  },
+  "numeric_training_ranges": {
+    "promised_days": [
+      3.0,
+      117.0
+    ],
+    "approval_hours": [
+      0.0,
+      554.785
+    ],
+    "item_count": [
+      1.0,
+      21.0
+    ],
+    "total_price_brl": [
+      2.29,
+      13440.0
+    ],
+    "freight_brl": [
+      0.0,
+      1002.2900000000001
+    ],
+    "total_weight_g": [
+      2.0,
+      184400.0
+    ],
+    "total_volume_cm3": [
+      288.0,
+      1476000.0
+    ],
+    "freight_ratio": [
+      0.0,
+      5.739495798319327
+    ],
+    "average_item_price": [
+      1.5142857142857142,
+      6735.0
+    ],
+    "same_state": [
+      0.0,
+      1.0
+    ],
+    "approval_weekday": [
+      0.0,
+      6.0
+    ],
+    "approval_hour": [
+      0.0,
+      23.0
+    ],
+    "month_sin": [
+      -1.0,
+      1.0
+    ],
+    "month_cos": [
+      -1.0,
+      1.0
+    ]
+  },
+  "scope": "Historical single-seller orders, conditional on eventual recorded delivery.",
+  "release_gate": {
+    "status": "research_only",
+    "beats_short_promise_rule_at_50": false,
+    "model_precision": 0.05916305916305916,
+    "rule_precision": 0.09307359307359307,
+    "reason": "Historical evaluation only. A baseline comparison is necessary but not sufficient for deployment.",
+    "post_test_action": "No model retuning on this test set. The benchmark remains visible; any future development needs a new evaluation plan."
+  },
+  "test_summary": {
+    "orders": 12304,
+    "late_orders": 599,
+    "late_rate": 0.04868335500650195,
+    "average_precision": 0.08535163040451249,
+    "roc_auc": 0.6494832980212644,
+    "brier_score": 0.04671675056907889,
+    "log_loss": 0.1925158462491755,
+    "capacity_50": {
+      "budget_per_day": 50,
+      "selected": 2772,
+      "late_found": 164,
+      "precision": 0.05916305916305916,
+      "recall": 0.27378964941569284,
+      "random_expected_late_found": 116.26090755074623,
+      "random_expected_precision": 0.04194116434009604,
+      "lift_over_random": 1.4106203319324369
+    }
+  },
+  "limitations": [
+    "Historical 2017-2018 Brazil data, not current delivery performance.",
+    "Only delivered single-seller orders; no guarantee for cancelled, undelivered or multi-seller orders.",
+    "Features assumed available at approval; source is a final snapshot without update history.",
+    "Outcome-maturity filters and delivered-only selection can underrepresent very slow deliveries.",
+    "Daily top-K is a retrospective next-shift queue, not immediate online intervention.",
+    "Finding late orders does not prove an intervention prevents delays or saves money."
+  ],
+  "artifact_sha256": "d869ed46703acd4b010609547899fe67d1390a53e10be241cf6a68a8d1280c62"
+}

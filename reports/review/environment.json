@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "fresh_install": "uv pip install --python .venv-review/bin/python -e .[dev] succeeded",
+  "compatibility": "uv pip check: all installed packages compatible",
+  "lock_reinstall_dry_run": "Would make no changes",
+  "requirements_lock_sha256": "f782d8758a20c8971c069aebcee8f9d7a5ba2e6efd1811a7506378f00976a5e9",
+  "source_files_verified": 9,
+  "dashboard_dom_check": "PASS: initial queue, review budget, evidence view, single-order form, invalid-budget error",
+  "notebook_kernel_failure": "Network interface discovery: Operation not permitted; kernel died before kernel_info",
+  "experiment_invocations": 1
+}
